@@ -1,0 +1,35 @@
+{
+  "name": "@paulohmbrn/design",
+  "version": "0.1.0",
+  "description": "Base global de identidade visual e modelos de projeto para Paulo H. M. Barros.",
+  "type": "module",
+  "private": false,
+  "preferGlobal": true,
+  "bin": {
+    "paulo-design": "./bin/paulo-design.mjs"
+  },
+  "files": [
+    "bin/",
+    "css/",
+    "templates/",
+    "tokens/",
+    "tailwind.preset.cjs",
+    "README.md"
+  ],
+  "scripts": {
+    "check": "node --check bin/paulo-design.mjs && node bin/paulo-design.mjs --help",
+    "pack:dry": "npm pack --dry-run"
+  },
+  "keywords": [
+    "design-system",
+    "brand",
+    "templates",
+    "claude",
+    "codex"
+  ],
+  "author": "Paulo H. M. Barros",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
