@@ -1,4 +1,4 @@
-# Paulo Design
+# Abraço Digital
 
 Base reutilizável para manter a mesma identidade visual e o mesmo padrão de execução em qualquer projeto novo.
 
@@ -19,15 +19,15 @@ npm install -g github:paulohmbrn/design
 Depois, dentro de qualquer projeto:
 
 ```bash
-paulo-design install
+abraco-design install
 ```
 
 Isso instala, sem sobrescrever arquivos existentes por padrão:
 
 - `docs/identity.md`
-- `tokens/paulo-design.tokens.json`
-- `src/styles/paulo-design.css`
-- `tailwind.paulo-design.cjs`
+- `tokens/abraco-digital.tokens.json`
+- `src/styles/abraco-digital.css`
+- `tailwind.abraco-digital.cjs`
 - `CLAUDE.md`
 - `AGENTS.md`
 - `CODEX.md`
@@ -35,19 +35,19 @@ Isso instala, sem sobrescrever arquivos existentes por padrão:
 Para sobrescrever arquivos existentes:
 
 ```bash
-paulo-design install --force
+abraco-design install --force
 ```
 
 Para instalar só os modelos de agentes:
 
 ```bash
-paulo-design install --agents-only
+abraco-design install --agents-only
 ```
 
 Para instalar só a identidade visual:
 
 ```bash
-paulo-design install --design-only
+abraco-design install --design-only
 ```
 
 ## Uso sem instalação global
@@ -58,29 +58,29 @@ Funciona, mas não é o caminho preferido:
 npx github:paulohmbrn/design install
 ```
 
-O global evita repetir URL, reduz fricção e deixa `paulo-design` disponível para qualquer projeto.
+O global evita repetir URL, reduz fricção e deixa `abraco-design` disponível para qualquer projeto.
 
 ## Usando os tokens
 
 ### CSS
 
-Importe `src/styles/paulo-design.css` no entrypoint global do app.
+Importe `src/styles/abraco-digital.css` no entrypoint global do app.
 
 Exemplo:
 
 ```ts
-import './styles/paulo-design.css'
+import './styles/abraco-digital.css'
 ```
 
 Depois use variáveis CSS:
 
 ```css
 .card {
-  background: var(--paulo-surface);
-  color: var(--paulo-text);
-  border: 1px solid var(--paulo-border);
-  border-radius: var(--paulo-radius-lg);
-  box-shadow: var(--paulo-shadow-soft);
+  background: var(--abraco-surface);
+  color: var(--abraco-text);
+  border: 1px solid var(--abraco-border);
+  border-radius: var(--abraco-radius-lg);
+  box-shadow: var(--abraco-shadow-soft);
 }
 ```
 
@@ -89,10 +89,10 @@ Depois use variáveis CSS:
 No `tailwind.config.*`:
 
 ```js
-const pauloPreset = require('./tailwind.paulo-design.cjs')
+const abracoPreset = require('./tailwind.abraco-digital.cjs')
 
 module.exports = {
-  presets: [pauloPreset],
+  presets: [abracoPreset],
   content: ['./src/**/*.{ts,tsx,js,jsx,html}'],
 }
 ```
@@ -121,7 +121,7 @@ A identidade é sóbria, operacional e premium sem exagero:
 Rode novamente:
 
 ```bash
-paulo-design install
+abraco-design install
 ```
 
 Arquivos existentes são preservados. Use `--force` somente quando quiser aplicar a versão mais nova por cima.

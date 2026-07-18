@@ -1,8 +1,8 @@
-const pauloDesignPreset = {
+const abracoDesignPreset = {
   theme: {
     extend: {
       colors: {
-        paulo: {
+        abraco: {
           background: '#F7F5EF',
           surface: '#FFFFFF',
           'surface-muted': '#EFEAE0',
@@ -32,22 +32,22 @@ const pauloDesignPreset = {
         mono: ['JetBrains Mono', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace'],
       },
       borderRadius: {
-        paulo: '18px',
-        'paulo-sm': '8px',
-        'paulo-md': '12px',
-        'paulo-lg': '18px',
-        'paulo-xl': '28px',
+        abraco: '18px',
+        'abraco-sm': '8px',
+        'abraco-md': '12px',
+        'abraco-lg': '18px',
+        'abraco-xl': '28px',
       },
       boxShadow: {
-        'paulo-soft': '0 18px 50px rgba(18, 58, 47, 0.10)',
-        'paulo-card': '0 10px 30px rgba(23, 26, 28, 0.08)',
-        'paulo-focus': '0 0 0 4px rgba(178, 138, 60, 0.22)',
+        'abraco-soft': '0 18px 50px rgba(18, 58, 47, 0.10)',
+        'abraco-card': '0 10px 30px rgba(23, 26, 28, 0.08)',
+        'abraco-focus': '0 0 0 4px rgba(178, 138, 60, 0.22)',
       },
       transitionTimingFunction: {
-        paulo: 'cubic-bezier(0.2, 0.8, 0.2, 1)',
+        abraco: 'cubic-bezier(0.2, 0.8, 0.2, 1)',
       },
     },
   },
 }
 
-module.exports = pauloDesignPreset
+module.exports = abracoDesignPreset

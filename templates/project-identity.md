@@ -1,4 +1,4 @@
-# Identidade Visual — Paulo Design
+# Identidade Visual — Abraço Digital
 
 ## Essência
 

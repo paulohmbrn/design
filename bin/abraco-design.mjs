@@ -15,20 +15,20 @@ const FILES = [
   },
   {
     group: 'design',
-    from: 'tokens/paulo-design.tokens.json',
-    to: 'tokens/paulo-design.tokens.json',
+    from: 'tokens/abraco-digital.tokens.json',
+    to: 'tokens/abraco-digital.tokens.json',
     label: 'tokens de design',
   },
   {
     group: 'design',
-    from: 'css/paulo-design.css',
-    to: 'src/styles/paulo-design.css',
+    from: 'css/abraco-digital.css',
+    to: 'src/styles/abraco-digital.css',
     label: 'CSS variables/classes base',
   },
   {
     group: 'design',
-    from: 'tailwind.preset.cjs',
-    to: 'tailwind.paulo-design.cjs',
+    from: 'tailwind.abraco-digital.cjs',
+    to: 'tailwind.abraco-digital.cjs',
     label: 'preset Tailwind',
   },
   {
@@ -52,12 +52,12 @@ const FILES = [
 ]
 
 function printHelp() {
-  console.log(`Paulo Design
+  console.log(`Abraço Digital
 
 Uso:
-  paulo-design install [opções]
-  paulo-design list
-  paulo-design --help
+  abraco-design install [opções]
+  abraco-design list
+  abraco-design --help
 
 Instalação recomendada:
   npm install -g github:paulohmbrn/design
@@ -131,7 +131,7 @@ function install(args) {
   const written = results.filter((result) => result.status === 'written')
   const skipped = results.filter((result) => result.status === 'skipped')
 
-  console.log('Paulo Design aplicado.')
+  console.log('Abraço Digital aplicado.')
   console.log(`Destino: ${args.cwd}`)
   console.log(`Arquivos escritos: ${written.length}`)
 

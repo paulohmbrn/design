@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-Este projeto usa **Paulo Design** como base visual e operacional.
+Este projeto usa **Abraço Digital** como base visual e operacional.
 
 ## Objetivo
 
@@ -11,14 +11,14 @@ Qualquer interface, landing page, dashboard, automação visual ou documentaçã
 Use os arquivos instalados pelo pacote `@paulohmbrn/design`:
 
 - `docs/identity.md` — direção visual e critérios humanos.
-- `tokens/paulo-design.tokens.json` — tokens canônicos.
-- `src/styles/paulo-design.css` — CSS variables e classes base.
-- `tailwind.paulo-design.cjs` — preset Tailwind, quando o projeto usa Tailwind.
+- `tokens/abraco-digital.tokens.json` — tokens canônicos.
+- `src/styles/abraco-digital.css` — CSS variables e classes base.
+- `tailwind.abraco-digital.cjs` — preset Tailwind, quando o projeto usa Tailwind.
 
 Se algum arquivo estiver ausente, pare e instale:
 
 ```bash
-paulo-design install
+abraco-design install
 ```
 
 A instalação recomendada do pacote é global:
@@ -60,7 +60,7 @@ Evite:
 Ao modificar este projeto:
 
 1. Leia os arquivos relevantes antes de editar.
-2. Preserve a identidade Paulo Design.
+2. Preserve a identidade Abraço Digital.
 3. Reutilize tokens/classes existentes antes de criar novos estilos.
 4. Não entregue mock bonito sem fluxo funcional.
 5. Valide build/test/lint quando existirem.

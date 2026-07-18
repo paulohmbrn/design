@@ -1,6 +1,6 @@
 # CODEX.md
 
-Este projeto usa **Paulo Design**.
+Este projeto usa **Abraço Digital**.
 
 ## Missão do Codex
 
@@ -17,7 +17,7 @@ npm install -g github:paulohmbrn/design
 Dentro do projeto:
 
 ```bash
-paulo-design install
+abraco-design install
 ```
 
 ## Contrato visual
@@ -25,9 +25,9 @@ paulo-design install
 Use os tokens e arquivos locais:
 
 - `docs/identity.md`
-- `tokens/paulo-design.tokens.json`
-- `src/styles/paulo-design.css`
-- `tailwind.paulo-design.cjs`
+- `tokens/abraco-digital.tokens.json`
+- `src/styles/abraco-digital.css`
+- `tailwind.abraco-digital.cjs`
 
 Não invente paleta alternativa sem instrução explícita.
 
@@ -47,8 +47,8 @@ accent:     #B28A3C
 
 1. Detecte o stack: Next, Vite, Remix, Astro, app simples, etc.
 2. Encontre o CSS global real.
-3. Importe `src/styles/paulo-design.css` no ponto certo.
-4. Se Tailwind existir, conecte `tailwind.paulo-design.cjs` como preset.
+3. Importe `src/styles/abraco-digital.css` no ponto certo.
+4. Se Tailwind existir, conecte `tailwind.abraco-digital.cjs` como preset.
 5. Aplique tokens aos componentes principais.
 6. Valide responsividade e estados críticos.
 

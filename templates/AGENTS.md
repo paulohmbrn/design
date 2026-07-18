@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Este projeto segue **Paulo Design**.
+Este projeto segue **Abraço Digital**.
 
 ## Regra principal
 
@@ -15,15 +15,15 @@ npm install -g github:paulohmbrn/design
 Aplicar em um projeto:
 
 ```bash
-paulo-design install
+abraco-design install
 ```
 
 ## Arquivos de referência
 
 - `docs/identity.md` — norte visual e tom.
-- `tokens/paulo-design.tokens.json` — tokens canônicos.
-- `src/styles/paulo-design.css` — CSS variables/classes base.
-- `tailwind.paulo-design.cjs` — preset Tailwind.
+- `tokens/abraco-digital.tokens.json` — tokens canônicos.
+- `src/styles/abraco-digital.css` — CSS variables/classes base.
+- `tailwind.abraco-digital.cjs` — preset Tailwind.
 
 Leia esses arquivos antes de mexer em UI.
 
@@ -62,7 +62,7 @@ Antes de editar:
 1. Inspecione a estrutura real do projeto.
 2. Localize onde estilos globais entram.
 3. Veja se Tailwind, CSS modules, styled-components ou outro stack já existe.
-4. Integre Paulo Design no stack existente; não force troca de arquitetura.
+4. Integre Abraço Digital no stack existente; não force troca de arquitetura.
 
 Ao editar:
 
